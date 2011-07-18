@@ -1,0 +1,68 @@
+/**
+ * Print styling used for the CPD Report
+ *
+ * @package   admin-report-cpd                                               
+ * @copyright 2010 Kineo open Source                                         
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+@page land { size: landscape; }
+
+body { page: land; background: #FFF; }
+
+#page { max-width: 99%; }
+
+#left-column,
+#header,
+#id_submitbutton,
+#footer,
+#print_button,
+.navbutton,
+.singlebutton { display: none; }
+
+img { border: none; }
+
+table.cpd {
+	border-spacing:0.5em;
+	width:100%;
+	page: land;
+}
+/* Edit and Delete columns */
+table.cpd .no_print_col {
+	display: none;
+}
+
+.printonly {
+	display: block;
+}
+table.disclaimer {
+	border-collapse: separate;
+	border-spacing: 10px;
+	width: 100%;
+	page: land;
+}
+table.disclaimer td {
+	text-align: right;
+}
+table.disclaimer td.fillbox {
+	border: 1px solid #000;
+	padding: 10px;
+	width: 165px;
+}
+table.disclaimer td.date {
+	width: 100px;
+}
+
+.cpdfilter, input {
+	/* Don't think we need to display the filter form */
+	display: none; 
+}
+.cpdfilter fieldset 
+{
+	margin: 0px;
+	padding: 0px;
+}
+.cpdfilter fieldset .advancedbutton
+{
+	display: none;
+}
