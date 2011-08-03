@@ -1,0 +1,136 @@
+/**
+ * Standard styling used for the CPD Report
+ *
+ * @package   admin-report-cpd                                               
+ * @copyright 2010 Kineo open Source                                         
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+table.cpd {
+	width: 100%;
+	margin: 20px 0;
+}
+table.cpd th,
+table.cpd td {
+	padding: 5px;
+}
+table.cpd tr.r0 td {
+	background-color: #F0F0F0;
+}
+table.cpd tr.r1 td {
+	background-color: #FFF;
+}
+
+table.cpd_settings {
+	width: 100%; 
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+table.cpd_settings th {
+	font-size: 2em;
+	font-size: 1.1em;
+	text-align: left;
+}
+table.cpd_settings td {
+	border: 1px solid;
+	vertical-align: top;
+}
+table.cpd_settings td.cpd_itemlist {
+	width: 55%;
+}
+table.cpd_settings td.cpd_itemform {
+	width: 45%;
+}
+table.cpd_settings td h3 {
+	margin-top: 0px;
+}
+table.cpd_list {
+	width: 100%;
+	border: none;
+}
+table.cpd_list td {
+	border: none;
+}
+
+.printonly {
+	display: none;
+}
+
+form {
+	margin: 0px;
+}
+.cpdfilter fieldset 
+{
+	margin: 0px;
+	padding: 0px;
+}
+.cpdfilter fieldset .advancedbutton
+{
+	display: none;
+}
+fieldset#filterby {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+table.disclaimer {
+	border-collapse: separate;
+	border-spacing: 10px;
+	width: 100%;
+}
+table.disclaimer td {
+	text-align: right;
+}
+table.disclaimer td.fillbox {
+	border: 1px solid #000;
+	padding: 10px;
+	width: 165px;
+}
+table.disclaimer td.date {
+	width: 100px;
+}
+
+.noresults {
+	text-align: center;
+}
+
+.cpd_itemlist, .cpd_itemform {
+    width: 45%;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.cpd_itemform {
+    margin-left: 52%;
+    height: 100%;
+}
+
+.cpd_itemform input[type=text] {
+    width: 70%;
+}
+
+.cpd_itemlist {
+    float: left;
+}
+
+.cpd_itemlist li {
+    list-style: none;
+    padding: .25em;
+    display: block;
+}
+
+.cpd_itemlist li span {
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.cpd_itemlist li a {
+
+}
+
+h3.cpd_settingshead {
+    clear: both;
+}

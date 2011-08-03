@@ -13,11 +13,12 @@ body { page: land; background: #FFF; }
 #page { max-width: 99%; }
 
 #left-column,
-#header,
+#page-header,
 #id_submitbutton,
-#footer,
+#page-footer,
 #print_button,
-.navbutton,
+.region-header,
+.navbar,
 .singlebutton { display: none; }
 
 img { border: none; }
